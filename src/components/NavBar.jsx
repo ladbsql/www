@@ -5,6 +5,11 @@ function NavBar() {
       <img src="/logotipo.png" className="h-10 w-10" alt="" />
       <ul className="flex my-auto">
         <li className="mr-2">
+          <Link href="/sgdb" className="hover:text-white transition-colors">
+            Database
+          </Link>
+        </li>
+        <li className="mr-2">
           <Link
             href="/sqleditor"
             className="hover:text-white transition-colors"

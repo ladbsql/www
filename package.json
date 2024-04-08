@@ -9,10 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@floating-ui/react": "^0.26.11",
+    "ace-builds": "^1.32.9",
     "lucide-react": "^0.364.0",
     "next": "14.1.4",
     "react": "^18",
-    "react-dom": "^18"
+    "react-ace": "^11.0.1",
+    "react-dom": "^18",
+    "react-transition-group": "^4.4.5"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",

@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Button from "@/components/button";
-import { Database } from "lucide-react";
-import { BookOpen } from "lucide-react";
+import { Database, BookOpen } from "lucide-react";
 export default function Home() {
   return (
     <main className="flex items-center justify-center min-h-screen">

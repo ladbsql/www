@@ -1,9 +1,14 @@
 import NavBar from "@/components/NavBar";
-export default function sqleditor() {
+import Panel from "@/components/Panel";
+import Editor from "@/components/sqleditor/Editor";
+export default function sqleditorrender() {
   return (
     <>
       <NavBar />
-      <h1>SQL Editor</h1>
+      <div className="px-12 mt-8 flex justify-between">
+        <Panel />
+        <Editor />
+      </div>
     </>
   );
 }

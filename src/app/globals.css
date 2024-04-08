@@ -18,7 +18,10 @@
 
 body {
   background-color: #171717;
+  
 }
+
+
 
 @layer utilities {
   .text-balance {
